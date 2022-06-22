@@ -38,7 +38,7 @@ public class Expressions {
     public static Expression product(Expression... members) {
         //implement this method
 
-        mExpressions = new Expression[members.length];
+//        mExpressions = new Expression[members.length];
 
 
 
@@ -48,7 +48,7 @@ public class Expressions {
 
         for (int i = 0; i < members.length; i++) {
 
-            mExpressions[i] = members[i];
+//            mExpressions[i] = members[i];
 
              a *= members[i].evaluate();
 
